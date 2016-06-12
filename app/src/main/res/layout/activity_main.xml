@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.mytestapp.MainActivity">
+
+
+    <FrameLayout
+        style="@style/lines_height"
+        />
+
+    <RelativeLayout
+        android:id="@+id/main_sms"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/main_sms_tv"
+            style="@style/text_black_14size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="14dp"
+            android:drawablePadding="7dp"
+            android:text="1、自动获取短信验证码"
+            android:textColor="@color/text_color"/>
+
+        <ImageView style="@style/iv_choice_set"/>
+    </RelativeLayout>
+
+    <FrameLayout style="@style/lines_height"/>
+
+</RelativeLayout>
